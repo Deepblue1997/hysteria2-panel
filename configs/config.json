@@ -1,0 +1,15 @@
+{
+    "listen": ":8080",
+    "tls_cert_path": "/path/to/cert.pem",
+    "tls_key_path": "/path/to/key.pem",
+    "domain": "your-domain.com",
+    "email": "admin@example.com",
+    "database": {
+        "type": "mysql",
+        "host": "localhost",
+        "port": 3306,
+        "user": "root",
+        "password": "your-password",
+        "dbname": "hysteria2_panel"
+    }
+} 
